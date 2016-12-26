@@ -1,0 +1,14 @@
+/*
+* *	清除各元素默认样式
+*/
+*{ margin: 0; padding: 0; font-family: 'Microsoft YaHei'; }
+h1,h2,h3,h4,h5,h6{ font-size: 12px; font-weight: normal; margin: 0; padding: 0; }
+ul li,ol li, dl dt,dl dd{ list-style: none; }
+a{ text-decoration: none; color: #000; }
+i,em{ font-style: normal; }
+b,strong{ font-weight: normal; }
+input,textarea{ outline: none; }
+.fl{ float: left; }
+.fr{ float: right; }
+.clearfix:after{ display: block; content: ''; clear: both; }
+.clearfix{ zoom: 1; }
