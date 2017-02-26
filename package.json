@@ -1,6 +1,11 @@
 {
   "dependencies": {
-    "gulp": "^3.9.1"
+    "css-loader": "^0.26.1",
+    "gulp": "^3.9.1",
+    "sass-loader": "^6.0.0",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^2.2.1"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
@@ -15,7 +20,6 @@
     "gulp-sass": "^3.0.0",
     "gulp-tinypng": "^1.0.2",
     "gulp-uglify": "^2.0.0",
-    "gulp-webserver": "^0.9.1",
     "imagemin-pngquant": "^5.0.0",
     "opn": "^4.0.2",
     "tiny-lr": "^1.0.3"
